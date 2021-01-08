@@ -514,6 +514,7 @@ julia> L2(m) = 0f0
 julia> L2(m::Dense) = sum(abs2, m.W)
 
 julia> L2reg(model) = sum(L2(m) for m in Flux.modules(model))
+
 ```
 """
 modules(m) = [x for x in _trainables(m) if !_isleaf(x)]
