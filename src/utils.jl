@@ -491,7 +491,7 @@ to [`@functor`](@ref) and [`trainable`](@ref).
 
 It can be used to apply a regularization
 over certain specific modules or subsets of
-the parameters (e.g. the weights but not the biases)/
+the parameters (e.g. the weights but not the biases).
 
 # Examples
 
