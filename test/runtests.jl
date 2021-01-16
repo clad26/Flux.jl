@@ -32,6 +32,7 @@ end
   include("layers/stateless.jl")
   include("layers/recurrent.jl")
   include("layers/conv.jl")
+  include("layers/upsample.jl")
 end
 
 @testset "outputsize" begin
